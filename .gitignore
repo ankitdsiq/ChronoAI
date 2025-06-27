@@ -1,2 +1,8 @@
 chroma_db
 chroma_db_chronoai_memory
+venv
+__pycache__
+.env
+audio.wav
+graph.png
+text.txt

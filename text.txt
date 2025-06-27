@@ -1,0 +1,536 @@
+    1. User Guide: 
+    1. Company Registration:-
+    • This guide will walk you through the process of registering your company 
+    1. Registration Steps: Open your web browser and go to the Timechronos registration URL  https://app.timechronos.com/company/registration.
+    A. Provide Company Name :- 
+    • Field: Company Name
+    • Instruction: Enter the full, official name of your company. This is how your organization will be identified within Timechronos.
+    B. Provide First Name
+    • Field: First Name
+    • Instruction: Enter your personal first name. This will be associated with your primary administrator account.
+    C. Provide Last Name 
+    • Field: Last Name
+    • Instruction: Enter your personal last name. This will complete your administrator account's name.
+    D. Provide Email
+    • Field: Email Address
+    • Instruction: Provide a valid email address that you'll use for logging in and receiving important notifications, such as password resets and account updates. We recommend using a professional email tied to your company.
+    • Example: priya.sharma@globalinnovations.com
+    E. Select Country
+    • Field: Country (select from dropdown menu)
+    • Instruction: Choose the primary country where your company is based or legally registered from the list. This helps tailor Timechronos to your region's specific settings, like currency formats.
+    •  Example: India
+    F. Set Your Password
+    • Field: Password
+    • Instruction: Create a strong and secure password for your account. Make sure it meets the following criteria for your security:
+    1. Minimum of 8 characters.
+    2. Includes at least one uppercase letter (A-Z).
+    3. Includes at least one lowercase letter (a-z).
+    4. Includes at least one number (0-9).
+    5. Includes at least one special character (e.g., !@#$%^&*).
+    G. Confirm Your Password
+    • Field: Confirm Password
+    • Instruction: Re-enter the exact same password you typed in the "Password" field. This step helps confirm there are no typos and ensures your password is set correctly.
+    H. Provide Services of Company Provide
+    •  Field: Services Provided
+    • Instruction: Briefly describe the main services or industry your company operates in. This helps Timechronos understand your business better and may assist with future feature recommendations or support.
+    • Example: Software development, IT consulting, and cloud solutions.
+    I. Provide Company Contact Number
+    • Field: Company Contact Number
+    • Instruction: Enter the primary telephone number for your company, including the appropriate country code. This number may be used for support purposes or critical  account-related communications.
+    • Example: +91 ********
+    J. Provide Company Address
+    • Field: Company Address
+    • Instruction: Provide your company's full physical address. This is often useful for billing, official communications, or localized features.
+    • Example: 123, Tech Park Road, Silicon Valley, Bengaluru, Karnataka, 560001
+	    	
+    • Once you've filled in all the necessary (and any optional) fields, carefully review your entries for accuracy. Then, click the "Register" button to submit your registration.
+     2. Sign In steps:-
+    • To access your Timechronos account, follow these simple steps:
+    A. Navigate to the Login Page:
+        a. Open your web browser and go to the Timechronos login URL  https://app.timechronos.com/company/login.
+        b. You will see the Timechronos login screen with fields for your credentials
+
+
+    B. Enter Your Email Address
+        a. Locate the field labeled "Email".
+        b. Click inside this field and type your registered Timechronos email address.
+            i. Example: you.name@example.com
+    C. Enter Your Password:
+        a. Locate the field labeled "Password".
+        b. Click inside this field and type your confidential password.
+            i. Note: For security, the characters you type in the password field will typically appear as asterisks or dots.
+    D. Click the Login Button:
+        a. After entering both your email address and password, locate and click the "Sign In" button.
+    3. Troubleshooting Sign-In Issues:
+	Not completed…………………………
+    A. Incorrect Email or Password: 
+    • If you receive an error message indicating incorrect credentials, carefully re-enter your email address and password. Remember that passwords are case-sensitive.
+    B. Forgot Password: 
+    • If you've forgotten your password, click the "Forgot Password?" link (usually located near the login button). Follow the prompts to reset your password using your registered email address.
+    C. Account Locked: 
+    • If you attempt to log in unsuccessfully multiple times, your account might be temporarily locked for security reasons. Please wait for the specified lockout period or contact Timechronos Support for assistance.
+
+  4. Frequently Asked Questions (FAQs)
+    • This section provides answers to common questions about Timechronos,   covering general information, billing, and technical aspects.
+
+    • What is Timechronos?
+        ◦ Timechronos is a next-generation SaaS platform designed to simplify, automate, and enhance timetracking, resource utilization, and project billability. Unlike traditional tools focused solely on time entry,Timechronos aims to transform timesheet management into a strategic asset for modern businessesranging from freelancers to mid-sized teams.clients and projects, and approve timesheets, ultimately enhancing efficiency and productivity.
+
+    • How secure is my data?
+        ◦ At Timechronos, data security is our top priority. We employ industry-standard security measures, including data encryption (both in transit and at rest), secure server infrastructure, regular security audits, and strict access controls. Your data is protected against unauthorized access, loss, and misuse, ensuring confidentiality and integrity.
+
+    • What devices can I use Timechronos on?
+        ◦ Timechronos is a web-based application, meaning you can access it from any device with a modern web browser and an internet connection. This includes desktops, laptops, tablets, and smartphones. For the best experience, we recommend using updated versions of popular browsers like Google Chrome, Mozilla Firefox, Microsoft Edge, or Apple Safari.
+
+    • "How do we track time for a specific customer in Timechronos?
+        ◦  Time is logged against Tasks, which belong to Projects, and Projects are tied to Clients. Therefore, to track time for a specific customer, you ensure tasks are correctly linked to their projects, which are correctly linked to their client. The "Time Logging" point in the "Complete Integrated Flow" explicitly mentions this.
+
+    • "Can a project be shared across multiple clients?"
+        ◦ The "Conceptual Relationship" under "Projects" clearly states: "each Project is explicitly linked to only one Client."
+
+    • "Where do I find the individual work items assigned to my team for a big initiative?"
+        ◦ "big initiatives" are Projects, and within Projects, the "individual work items" are Tasks. The "Tasks" section details their role in workload management for individual Employees, while the "Projects" section describes them as containers for tasks.
+
+    • "If a client has several different types of work, how do we categorize them?"
+        ◦ This implies creating separate Projects for each "type of work" for that client. The "Projects" section defines them as "distinct, organized body of work or a specific initiative" for a client.
+        ◦ Example: For instance, imagine your client, "GlobalTech Solutions," has contracted your company for a variety of services. Instead of lumping all work under one generic "GlobalTech" project, you would create separate, focused projects like these:
+    • Client: GlobalTech Solutions
+        ◦ Project 1: GlobalTech - Website Redesign
+            ▪ (This project would encompass all tasks related to the visual and functional overhaul of their main website.)
+        ◦ Project 2: GlobalTech - Mobile App Development
+            ▪ (This project would cover everything from design to coding and testing for their new mobile application.)
+        ◦ Project 3: GlobalTech - Annual IT Consulting Retainer
+            ▪ (This ongoing project would capture all general consulting hours and smaller support tasks provided throughout the year.)
+        ◦ Project 4: GlobalTech - Q3 Marketing Campaign
+            ▪ (This project would focus specifically on the deliverables and tasks for their third-quarter marketing efforts.)
+Each of these projects is a distinct, organized body of work or a specific initiative for GlobalTech Solutions. This approach ensures:
+    • Clearer Tracking: You can easily see how many hours are spent on web design versus mobile app development for the same client.
+    • Accurate Reporting: Generate specific reports on the profitability and progress of each service type.
+    • Better Management: Assign different teams or resources to specific projects, managing them independently while still linking them to the core client relationship.
+        ◦ 
+
+    • "Who is responsible for completing tasks?"
+        ◦ The "Employees" section explicitly states their core role is "To execute tasks" and that "Employees are assigned to and perform Tasks."
+
+    • "How does Timechronos know who worked on what project?
+        ◦ The "Employees" section clarifies that "Employees are assigned to and perform Tasks," and that they "log time against these specific Tasks." Since tasks are linked to projects, this directly connects the employee's work to the project.
+
+    • How is billability calculated?
+        ◦ Billability in Timechronos is calculated based on the time employees log against tasks that are designated as 'billable'. When an employee records hours for a task linked to a project, and that task/project is marked as billable, those hours contribute to the total billable hours for the employee, project, and client. This allows for clear tracking and reporting of revenue-generating work.
+
+    •      What are the subscription plans?
+        ◦ Timechronos offers various subscription plans tailored to different organizational needs, typically based on the number of active users and included features (e.g., advanced reporting, integrations). For detailed information on our current subscription plans, pricing, and feature sets, please visit the "Pricing" section on our official website or contact our sales team.
+
+
+    • How do I update my billing information?
+        ◦ You can update your billing information, such as credit card details or billing address, directly within your Timechronos account settings. As an Admin, navigate to Settings > Billing & Subscription (or a similar path). Follow the prompts to securely update your payment details. If you encounter any issues, please contact our customer support team for assistance.
+
+    • What are the system requirements?
+        ◦ Timechronos is a cloud-based application, so specific local hardware requirements are minimal. You will need:
+        ◦ Operating System: Any modern operating system (Windows, macOS, Linux, Chrome OS, Android, iOS).
+        ◦ Web Browser: A modern, up-to-date web browser such as Google Chrome, Mozilla Firefox, Microsoft Edge, or Apple Safari. Ensure JavaScript is enabled.
+        ◦ Internet Connection: A stable and reliable internet connection for optimal performance.
+        ◦ Hardware: A computer or device with sufficient RAM (at least 4GB recommended) and processing power to run your chosen web browser smoothly.
+
+    • “For whom Timechronos is?”
+        ◦ Timechronos is for any organization that values precise time tracking, efficient task and project management, and actionable insights into their billability and workforce performance.
+
+        2. Admin User Guide
+    • Goal: To empower administrators to efficiently and effectively manage their organization's workforce, projects, and client relationships within Timechronos, ensuring data integrity, optimized resource utilization, and informed decision-making.
+1. Viewing Employees, Tasks, Clients, and Projects
+ As an Admin, you have a centralized view of all organizational data.
+    • Accessing Employee Information:
+        1. From your Timechronos dashboard, navigate to the left sidebar.
+        2. Click on "Employees" to view a list of all registered employees. Here you can see their basic information, status, and potentially linked tasks or projects.
+    • Accessing Tasks:
+        1. Click on "Tasks" in the navigation menu.
+        2. This section displays all tasks created within Timechronos, regardless of assignment. You can filter by assignee, status, project, or client to narrow down your view.
+    • Accessing Clients:
+        1. Click on "Clients" in the navigation menu.
+        2. You will see a list of all clients registered in the system, along with their associated details and linked projects.
+    • Accessing Projects:
+        1. Click on "Projects" in the navigation menu.
+        2. This view provides an overview of all projects, their status, associated clients, and team members.
+2. Adding a New Employee
+Admins can add new employees to the Timechronos system, granting them access and enabling time tracking and task assignment.
+    1. Navigate to the Employee Section:
+        ◦ From your Timechronos dashboard, click on "Employees" in the left side navigation menu.
+    2. Initiate New Employee Creation:
+        ◦ Locate and click the "Add New Employee" button, found at the top of the employee list.
+    3. Fill in Employee Details:
+        ◦ A form will appear requiring the following information:
+    A. Required:-
+                        i. First Name: Enter the employee's first name.
+                        ii. Last Name: Enter the employee's last name.
+                        iii. Email: Enter the employee's professional email address. This will be their primary identifier for logging in.
+			                  B. Optional:-
+                        iv. Position: Enter the employee's job title or position within the organization (e.g., "Software Engineer", "Project Manager", "Marketing Specialist").
+    4. Save the Employee:
+        ◦ After filling in all required fields, click the "Add Employee" button to finalize the creation.
+        ◦ The new employee will now appear in your employee list and can be assigned tasks and log time.
+
+3. Archiving and Editing an Employee
+Admins can archive employees who are no longer active and edit existing employee details as needed.
+    • Archiving an Employee:
+        1. Locate the Employee: Go to the "Employees" section.
+        2. Find the employee you wish to archive in the list. You can use the search bar or filters if necessary.
+        3. Initiate Archive:
+            ▪ Click on the employee's name to view their profile, or
+            ▪ Look for an "Action" field next to their name in the employee list.
+            ▪ Select "Archive" from the options.
+        4. Confirm Archiving: A confirmation dialog will appear. Confirm that you want to archive the employee.
+    • Editing an Employee:
+        1. Locate the Employee: Go to the "Employees" section.
+        2. Find the employee whose details you wish to edit.
+        3. Initiate Edit:
+            ▪ Click on the employee's name to view their profile, or
+            ▪ Goto to the “Action” field and click on edit icon
+            ▪ Select "Edit" from the options.
+        4. Modify Details: The employee's details form will reappear, pre-populated with their current information.
+        5. Update Fields: Make the necessary changes to fields such as First Name, Last Name, Email, or Position.
+        6. Save Changes: Click the "Update" button to apply your modifications.
+4. Adding New Clients
+Admins can add new clients to Timechronos, which is essential for associating projects and tracking billable time accurately.
+    1. Navigate to the Client Section:
+    • From your Timechronos dashboard, click on "Clients" in the navigation menu.
+    2. Initiate New Client Creation:
+    • Locate and click the "Add New Client" button.
+      Optional:-
+    3. Fill in Client Details:
+    • A form will appear, requiring the following information:
+            ▪ Name: Enter the full name of the client organization or individual.
+            ▪ Email: Enter the primary contact email for the client.
+            ▪ Code: Assign a unique code for the client (e.g., "ABC-CORP", "CLIENT001"). This can be used for internal identification.
+            ▪ Description: Provide any relevant notes or a brief description of the client.
+    4. Save the Client and Option to Add Project:
+        ◦ After filling in all details, click the "Add New Client" button.
+        ◦ Important: Immediately after saving the client, a pop-up window will appear asking: "do you want to add a project for client?"
+            ▪ You will have two options: "Yes" or "No".
+		
+5. Adding a Project Immediately After Client Creation (via Pop-up)
+If you select "Yes" in the pop-up after adding a client, a dedicated project creation form will appear.
+    1. Confirm Project Addition:
+    • On the pop-up, click "Yes" to proceed with adding a project for the newly created client.
+    2. Fill in Project Details:
+    • A new form will be displayed with the following fields:
+            ▪ Project Name: Enter the specific name of the project (e.g., "Website Redesign Phase 1", "Mobile App Development").
+            ▪ Project Domain: Specify the area or industry the project belongs to (e.g., "Web Development", "Marketing Campaign", "Consulting").
+            ▪ Start Date: Select the planned start date for the project using the date picker.
+            ▪ End Date: Select the planned end date for the project using the date picker.
+            ▪ Client: This field will be pre-filled with the client you just created.
+            ▪ Description: Provide a detailed overview of the project's scope, objectives, and any other relevant information.
+
+    3. Save the Project:
+        ◦ Click the "Add new project" button to finalize the project creation.
+        ◦ The project will now be linked to the client and appear in your project list.
+6. Adding a Project by Visiting the Project Section (Alternative Method)
+You can also add new projects directly from the Projects section, independent of client creation.
+    1. Navigate to the Project Management Section:
+    • From your Timechronos dashboard, click on "Projects" in the navigation menu.
+    2. Initiate New Project Creation:
+    • Locate and click the "Add New Project"  button.
+    3. Fill in Project Details:
+    • A form will appear with the following fields:
+            ▪ Project Name: Enter the specific name of the project.
+            ▪ Start Date: Select the planned start date for the project.
+            ▪ End Date: Select the planned end date for the project.
+            ▪ Client: Select the client this project is associated with from the dropdown list of existing clients. If the client doesn't exist yet, you'll need to add them first via the "Clients" section.
+            ▪ Description: Provide a detailed overview of the project's scope, objectives, and any other relevant information.
+    4. Save the Project:
+    • Click the "Add new project"  button to finalize the project creation.
+    • The project will now appear in your project list.
+
+
+
+
+ 3. Admin Analytics Dashboard: Track Performance, Analyze Trends, and Get Actionable Insights
+    • The Admin Analytics Dashboard provides powerful insights into your organization's performance, resource utilization, and billability. It allows you to track key metrics, analyze trends, and make informed decisions through various specialized sections.
+
+    1. Accessing the Billability Dashboard:
+        ◦ From your Timechronos dashboard, navigate to the top menu and click on "Billability".
+
+        ◦ Date Range Selection:
+            ▪ By default, the dashboard displays data for "Last 7 Days" (e.g., 2025-06-03 - 2025-06-10).
+            ▪ You can adjust this date range using the date picker or predefined options (e.g., "Last 30 Days," "This Month," "Custom Range") to analyze performance over different periods.
+
+        ◦ Filtering by Client:
+            ▪ Use the "Filter by Client" dropdown, which is set to "All Clients" by default.
+            ▪ You can select specific clients from this list to narrow down the data displayed on the dashboard, focusing only on the billability and resource utilization for projects related to those selected clients.
+
+        ◦ Overview Metrics (Resource Utilization Metrics): This section provides a quick summary of your organization's time and billability.
+
+            ▪ Total Hours Logged:
+                1. Displays the sum of all hours recorded by your team within the selected date range for selected clients and projects (e.g., 1021h 0m).
+                2. This metric includes both billable and non-billable time.
+            ▪ Billable Hours:
+                1. Indicates the total hours spent on revenue-generating work for clients within the selected period (e.g., 892h 0m).
+                2. This reflects the time that can be directly invoiced to clients.
+            ▪ Non-Billable Hours (Internal):
+                1. Represents hours spent on activities that are not directly billable to clients, such as internal meetings, training, administrative tasks, or company-specific projects (e.g., 129h 0m).
+            ▪ Billability Ratio:
+                1. Calculated as (Billable Hours / Total Hours Logged) * 100, this percentage provides an immediate measure of your team's efficiency in generating revenue (e.g., 87.4%).
+                2. A higher ratio generally indicates more productive utilization of resources for client work.
+
+        ◦ Hours by Client Chart:
+            ▪ This bar chart visually represents the distribution of total hours logged across your various clients within the selected date range.
+            ▪ It helps you quickly identify which clients your team is dedicating the most time to.
+
+        ◦ Billable Hours Distribution Chart:
+            ▪ This pie chart illustrates the percentage breakdown of your total billable hours by client.
+            ▪ It provides a clear visual of which clients are contributing most significantly to your billable revenue.
+
+        ◦ Client Details Table:
+
+            ▪ This table provides a comprehensive, detailed breakdown of billability metrics per client.
+                1. Client: The name of the client (e.g., Acme Corp, TechStart Inc).
+                2. Billable Hours: Total billable hours recorded for this specific client (e.g., 245h 0m for Acme Corp).
+                3. Non-Billable: Total non-billable hours recorded for tasks related to this client (e.g., 35h 0m for Acme Corp).
+                4. Employees: The number of unique employees who have logged hours for this client within the period (e.g., 8 for Acme Corp).
+                5. Billability %: The billability ratio specifically for this client ((Client Billable Hours / (Client Billable Hours + Client Non-Billable Hours)) * 100) (e.g., 87.5% for Acme Corp).
+                6. Projects: A list of key projects undertaken for that client, giving context to the hours logged (e.g., Website Redesign, Mobile App for Acme Corp).
+     2. Accessing the Overview section:
+    • The Overview section of the Admin Analytics Dashboard provides a quick glance at your organization's key figures, recent activities, and upcoming deadlines. It's designed to give you a high-level summary of your operational status.
+
+    • Accessing the Overview Section:
+        ◦ After accessing the Admin Analytics Dashboard, click on the "Overview" button at top menu.
+
+    • Key Entity Counts: This section displays the current total number of active entities in your system. Clicking "View All" next to each count will take you directly to the respective detailed management page.
+
+        ◦ Employees: Total number of employees registered in Timechronos (e.g., 0).
+        ◦ Clients: Total number of clients you are working with (e.g., 0).
+        ◦ Projects: Total number of active projects (e.g., 0).
+        ◦ Tasks: Total number of active tasks (e.g., 0).
+
+    • Recent Employee Activity: This card provides a real-time feed of your team's most recent actions within Timechronos. It helps you stay updated on what your employees are working on and when they're logging specific activities. You can click "View All" to see a complete activity log.
+
+        ◦ Each entry shows:
+            ▪ The employee's initial/avatar (e.g., S for Sarah Johnson).
+            ▪ Employee Name: The name of the employee (e.g., Sarah Johnson).
+            ▪ Activity Description: What the employee did (e.g., "Started work").
+            ▪ Associated Project/Entity: The project or entity related to the activity (e.g., "Web Redesign").
+            ▪ Time of Activity: When the activity occurred (e.g., 9:15 AM).
+
+    • Upcoming Deadlines: This section highlights critical project deadlines approaching soon, helping you keep track of time-sensitive deliverables and prioritize team efforts.
+
+        ◦ Each entry shows:
+            ▪ Project Name: The name of the project with an upcoming deadline (e.g., Website Redesign).
+            ▪ Client: The client associated with that project (e.g., XYZ Corp).
+            ▪ Due Date: When the deadline is (e.g., Tomorrow).
+        ◦ Example Deadlines:
+            ▪ Website Redesign | Client: XYZ Corp | Tomorrow
+            ▪ Mobile App Phase 1 | Client: ABC Inc | Tomorrow (or other specified relative date)
+     3. Resources Section (Admin Analytics Dashboard)
+    • The Resources section provides Billability Performance Analytics, focusing on individual employee performance related to billable and non-billable hours. This allows administrators to identify top performers, offer support to those below target, and manage overall team utilization.
+
+    • Accessing the Resources Section:
+        ◦ After accessing the Admin Analytics Dashboard, click on the "Resources" button at top menu.
+
+    • Resource Utilization Summary: At the top of the Resources section, you'll find key summary metrics related to employee performance:
+
+        ◦ Settings:
+            ▪ Clicking this option allows you to configure parameters for resource analysis, such as setting the minimum billability threshold for  the "Below Threshold" percentage target.
+        ◦ High Performers:
+            ▪ Indicates the number of employees whose billability ratio meets or exceeds your defined high-performance threshold (e.g., 6 employees).
+        ◦ Below Threshold:
+            ▪ Shows the number of employees whose billability ratio falls below the set target threshold (e.g., 3 employees).
+        ◦ Total Employees:
+            ▪ Displays the total number of active employees in the system within the selected date range (e.g., 12 employees).
+
+        ◦ Top Billable Performers: This list highlights employees with the highest billability ratios within the selected date range, ranked from highest to lowest.
+
+        ◦ Low Billable Performers (Below [Customizable Threshold]%) This section identifies employees whose billability ratio falls below the specified threshold.
+This helps managers quickly identify individuals who may need additional support, training, or workload adjustment.
+ 
+   4.  Compliance Section (Admin Analytics Dashboard)
+    • The Compliance section of the Admin Analytics Dashboard focuses on Timesheet Offense Tracking, helping administrators monitor adherence to time submission policies. This view provides insights into timely submissions and identifies employees who frequently miss or submit timesheets late.
+
+    • Accessing the Compliance Section:
+        ◦ After accessing the Admin Analytics Dashboard, ensure the "Compliance" button is selected, present at top menu.
+        ◦ This will take you to Compliance section.
+
+    • Offender Categories: This summary categorizes employees based on their timesheet submission compliance:
+
+        ◦ Chronic Offenders:
+            ▪ Employees with a high number of recorded offenses (e.g., 4 employees with 3+ offenses). These are individuals who consistently have issues with timesheet submission.
+        ◦ Regular Offenders:
+            ▪ Employees with a moderate number of offenses (e.g., 1 employee with 1-2 offenses). These individuals might occasionally miss deadlines or submit late.
+        ◦ Total Offenders:
+            ▪ The combined count of all employees who have recorded at least one timesheet offense (e.g., 5 employees).
+    • Offender List (Detailed Tracking): This section provides a detailed list of employees identified as offenders, allowing you to track their history and current status.
+
+        ◦ Each entry includes:
+            ▪ Employee Initials: (e.g., KZ).
+            ▪ Employee Name: The full name of the employee (e.g., Kevin Zhang).
+            ▪ Total Offenses: The cumulative count of timesheet offenses recorded for that employee (e.g., 8 for Kevin Zhang).
+            ▪ Last Offense: The date of their most recent timesheet offense (e.g., 2024-05-15).
+            ▪ Submission Status: Indicates their general punctuality for timesheet submissions (e.g., Late or On Time).
+        ◦ Example List:
+            ▪ KZ Kevin Zhang: Total Offenses: 8 | Last Offense: 2024-05-15 | Status: Late
+
+    • Organization Trend: This chart visualizes the overall trend of timesheet submission compliance across your organization over different periods (e.g., weekly). It helps you identify improvements or declines in compliance.	
+  5. Insights Section (Admin Analytics Dashboard)
+    • The Insights section provides AI-powered insights and recommendations to help you identify opportunities for improvement and take proactive management actions. It analyzes your organization's data across different departments, highlighting trends, identifying outliers, and suggesting actionable steps to enhance billability, compliance, and overall performance.
+
+    • Accessing the Insights Section:
+        ◦ After accessing the Admin Analytics Dashboard, ensure the "Insights" tab is selected.
+        ◦ This navigate to you at insight section.
+
+    • Team Performance Overview: This section provides a snapshot of key performance indicators (Billability and Compliance) for different departments or teams, along with their recent trends.
+        ◦ Department/Team Name: (e.g., Engineering, Design, Marketing, Sales).
+        ◦ Billability: The average billability percentage for the team.
+        ◦ Compliance: The average timesheet compliance percentage for the team.
+        ◦ Trend: Indicates the recent performance trajectory (e.g., declining, stable, improving).
+        ◦ Example Overview:
+            ▪ engineering: Billability 65% | Compliance 78% | Trend: declining
+            ▪ design: Billability 85% | Compliance 92% | Trend: stable
+            ▪ marketing: Billability 72% | Compliance 85% | Trend: improving
+            ▪ sales: Billability 68% | Compliance 88% | Trend: stable
+
+    • Key Insights: This section presents specific, data-driven observations identified by Timechronos's analytics engine. These insights highlight important performance anomalies or successes.
+        ◦ Improved Submission Behavior:
+            ▪ Insight: Highlights employees who have significantly improved their timesheet submission punctuality (e.g., James Wilson and Nina Patel have shown 100% on-time submissions in the last 3 weeks).
+            ▪ Affected Employees: Lists the names of the employees identified.
+        ◦ Declining Billability Trend:
+            ▪ Insight: Alerts you to a noticeable drop in billability for a specific team (e.g., Engineering team average billability dropped from 78% to 65% this month).
+            ▪ Affected Team: Specifies the team experiencing the decline.
+        ◦ Top Performing Team:
+            ▪ Insight: Recognizes teams that are consistently performing well in key metrics (e.g., Design team maintains 85% average billability - highest across all departments).
+            ▪ Affected Team: Specifies the high-performing team.
+        ◦ Timesheet Compliance Risk:
+            ▪ Insight: Identifies critical compliance issues that require immediate attention (e.g., 4 employees have missed 3+ timesheet submissions. Immediate action required).
+            ▪ Note: This links back to the "Chronic Offenders" identified in the Compliance section.
+    • Recommended Actions: Based on the key insights, Timechronos provides categorized recommendations to help you address challenges and capitalize on opportunities. Each recommendation includes a priority level, a target metric, a suggested action, affected parties, and concrete action steps.
+        ◦ HIGH Priority Recommendations:
+            ▪ Billability: +12% billability
+                • Review Non-Billable Activities: Kevin Zhang and Amanda Foster have high non-billable hours. Review their task allocation.
+                • Affected employees: Kevin Zhang, Amanda Foster
+                • Action Steps:
+                    ◦ Schedule 1:1 meetings with affected employees.
+                    ◦ Review current project assignments.
+                    ◦ Identify opportunities to reduce admin time.
+        ◦ MEDIUM Priority Recommendations:
+            ▪ Timesheet Compliance: +25% compliance
+                • Implement Automated Reminders: Set up automated email/Slack reminders for chronic timesheet offenders.
+                • Affected employees: Kevin Zhang, Amanda Foster, Robert Brown, Sophie Taylor
+                • Action Steps:
+                    ◦ Configure automated reminder system.
+                    ◦ Set up escalation for missed deadlines.
+                    ◦ Create manager notification workflow.
+        ◦ LOW Priority Recommendations:
+            ▪ Performance Recognition: Improved morale
+                • Recognize Top Performers: Acknowledge employees with excellent billability and timesheet compliance.
+                • Affected employees: Sarah Johnson, David Miller, Alex Wong
+                • Action Steps:
+                    ◦ Send recognition emails to top performers.
+                    ◦ Share success stories in team meetings.
+                    ◦ Consider performance bonuses or rewards.
+        ◦ MEDIUM Priority Recommendations:
+            ▪ Team Development: +8% org billability
+                • Cross-Team Learning Session: Design team can share billability best practices with other teams.
+                • Teams involved: Design → Engineering
+                • Action Steps:
+                    ◦ Schedule knowledge sharing session.
+                    ◦ Document best practices.
+                    ◦ Create standardized processes.
+    • Quick Actions: This section provides shortcuts to immediately initiate common actions related to the insights and recommendations.
+        ◦ Send Reminders: Directly trigger reminders for employees (e.g., for timesheet submission).
+
+
+
+
+4. Timesheet Approval and Management
+    • A manager is responsible for reviewing and approving or rejecting timesheets submitted by your direct reports. This ensures accurate billing, payroll processing, and project progress tracking.
+
+    1. Accessing Timesheet Approvals:
+
+        a. From your Timechronos dashboard, navigate to the left sidebar and click on "Manager".
+        b. You will see an overview dashboard showing the current status of timesheet requests:
+            i. Pending Requests: Displays the number of timesheets awaiting your review.
+            ii. Approved Timesheets: Shows a count of timesheets you have already approved.
+            iii. Rejected Timesheets: Shows a count of timesheets you have rejected.
+            iv. Recall Timesheet: Have to update here
+
+    2. Navigating Timesheet Requests:
+
+        a. Below the summary, you'll find a detailed list of timesheet requests, presented in a table format.
+        b. Filtering Options:
+            i. All Status: Use this dropdown to filter requests by their status: Pending, Approved, or Rejected.
+            ii. More Filters: Access additional filtering options, such as by date, to quickly find specific timesheets.
+
+    3. Reviewing a Timesheet Request:
+
+        a. Each timesheet request in the list will display key information:
+            i. Employee: The name and ID of the employee who submitted the timesheet (e.g., "Sarah Johnson", "EMP001").
+            ii. Project: The primary project associated with the timesheet.
+            iii. Timesheet Period: The date range covered by the timesheet (e.g., "May 5, 2025 - May 11, 2025").
+            iv. Department: The employee's department.
+            v. Submitted: Date and time of timesheet submission (e.g., "May 12, 2025, 09:30 AM").
+            vi. Hours: Total hours logged on the timesheet (e.g., "40.5h").
+            vii. Status: Current status of the timesheet (e.g., "Pending").
+            viii. Actions: This column contains the options to take action on the timesheet.
+
+    4. Approving or Rejecting a Timesheet:
+
+        a. For each "Pending" timesheet, under the "Actions" column, you will find options to:
+            i. Approve: Click this button to approve the timesheet. The status will change to "Approved,.
+            ii. Reject: Click this button to reject the timesheet. You will typically be prompted to provide a reason for rejection (e.g., "Incorrect hours logged," "Missing project details"). The status will change to "Rejected," and the employee may need to revise and resubmit it.
+        b. You also have the option to click on a Eye iicon in action column to view its detailed breakdown of hours per task/project before making a decision.
+
+    5. Viewing Timesheet Details:
+    • To get a comprehensive breakdown of any timesheet, locate the specific request in the list and click the "View Details" icon (an eye icon) under the "Actions" column.
+    • This will open a detailed pop-up or dedicated page displaying the following information:
+    • Timesheet Details Overview:
+    • Employee Information:
+        ◦ Name: The full name of the employee (e.g., Sarah Johnson).
+        ◦ Employee ID: Unique identifier for the employee (e.g., EMP001).
+        ◦ Department: The department the employee belongs to (e.g., Development).
+    • Timesheet Period:
+        ◦ Project: The main project the timesheet is associated with (e.g., Web Redesign).
+        ◦ Submitted: The exact date and time the timesheet was submitted (e.g., May 12, 2025, 09:30 AM).
+        ◦ Period: The full date range covered by the timesheet (e.g., May 5, 2025 - May 11, 2025).
+        ◦ Total Hours: The sum of all hours logged within this timesheet period (e.g., 40.5h).
+        ◦ Status: The current approval status of the timesheet (e.g., Pending).
+    • Time Entries Breakdown:
+        ◦ A table listing each individual time entry within the timesheet period:
+            ▪ Date: The specific date of the entry.
+            ▪ Hours: Hours logged for that entry.
+            ▪ Project: The project the hours were logged against.
+            ▪ Task: The specific task for which the hours were logged.
+        ◦ Example:
+            ▪ May 5, 2025 | 8h | Web Redesign | Frontend Development
+		
+					
+
+     5. Understanding the Timechronos Hierarchy:- 
+    • This section outlines the fundamental data model and relationships within Timechronos. Understanding this hierarchy is crucial for accurately tracking work, managing time, and generating meaningful reports. Every piece of work, from the highest-level engagement to the smallest daily activity, fits into this logical, interconnected structure, performed by your workforce.
+
+    A. Clients: The Strategic Relationship Layer (The "Who" We Work For)
+At the pinnacle of the Timechronos hierarchy are Clients. A client represents the external entity (an organization, company, or individual) for whom your services are performed and for whom billable work is often undertaken. They are the ultimate recipients of our efforts and the primary source of revenue.
+    • Core Role: To define the external party that contracts your services.
+    • Key Attributes: Name, Email, Code and a description.
+
+    B. Projects: The Organized Work Initiative (The "What" We Deliver for a Client)
+Directly linked to clients are Projects. A project is a distinct, organized body of work or a specific initiative undertaken for a designated client. Projects typically have a defined scope, objectives, and planned start and end dates. They act as logical containers for all the detailed work required to achieve a client's specific goals.
+    • Core Role: To group and manage all related work for a specific client initiative.
+    • Key Attributes: Project Name, Domain (e.g., Web Development, Consulting), Start Date, End Date, associated Client, and Description.
+    • Conceptual Relationship: A Client can have one or many Projects. However, each Project is explicitly linked to only one Client. Example: Client "Acme Corp" might have Projects "Website Redesign" and "Q4 Marketing Campaign."
+
+    C. Tasks: The Granular Unit of Execution (The "How" We Do the Work Within a Project)
+At the most granular level of the hierarchy are Tasks. A task is a single, actionable unit of work that contributes directly to the completion of a specific project. Employees log their time against these individual tasks, providing detailed insight into daily activities and workload.
+    • Core Role: To define specific, actionable steps required to complete a project.
+    • Key Attributes: Task Name, Description, Assignee(s), Status (e.g., To Do, In Progress, Done), Priority, Due Date.
+    • Conceptual Relationship: A Project is comprised of one or many Tasks. Each Task is always associated with only one Project. Example: The "Website Redesign" Project might include Tasks like "Design Wireframes," "Develop User Authentication," and "Content Migration."
+
+    D. Employees: The Workforce (The "Who" Performs the Work)
+Employees are the individuals within your organization who perform the tasks. They are the human element that brings projects to completion and generates billable hours for clients. In Timechronos, employees are assigned to tasks and log their time, providing the critical link between work definition and work execution.
+    • Core Role: To execute tasks, log time, and contribute to projects for clients.
+    • Key Attributes: First Name, Last Name, Email, Position, and their assigned tasks and projects.
+    • Conceptual Relationship: Employees are assigned to and perform Tasks. Employees log time against Tasks. Multiple Employees can work on the same Project by taking on different Tasks within it. Example: John (an Employee) is assigned the "Develop User Authentication" Task, which is part of the "Website Redesign" Project for the "Acme Corp" Client.
+
+    E. The Complete Integrated Flow: Client → Project → Task ← Employee
+This logical, interconnected structure forms the backbone of Timechronos, ensuring that every hour logged and every activity performed is organized, attributable, and executed by a defined workforce.
+    1. A business relationship is established with a Client.
+    2. Specific work Projects are defined for that Client.
+    3. Individual actionable Tasks are outlined within each Project.
+    4. Employees are assigned to and execute these Tasks.
+    5. Employees log their time against these specific Tasks, which in turn roll up to their respective Projects, and ultimately contribute to the overall work done for a Client.

@@ -35,7 +35,7 @@ import sounddevice as sd
 eleven_lab_client = ElevenLabs(api_key="sk_4c17caa48cf53702ea9a291bf91a61c126df611f9d3fc116")
 base_url="http://172.16.10.2:11434"
 
-access_token = "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc1MDg1MDc4MCwianRpIjoiMTMzZmU3YTItMWRmZC00MTNkLWE3MTMtNzc4MzIyYmFjZDkxIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImU4M2UxOGU0LTkxMjAtNGUyOC05MDA5LTlmODdiZmE3NmQ0MSIsIm5iZiI6MTc1MDg1MDc4MCwiY3NyZiI6ImRkMTUxNDgyLTA1NjYtNGYyYy05YzUyLWNiMzcwMTQ2YjJlZSIsImV4cCI6MTc1MDg1MjU4MCwiaWQiOiJlODNlMThlNC05MTIwLTRlMjgtOTAwOS05Zjg3YmZhNzZkNDEiLCJmaXJzdF9uYW1lIjoiYWFhIiwibGFzdF9uYW1lIjoibm5uIiwiZW1haWwiOiJhQGIuY29tIiwib3JnYW5pemF0aW9uX2lkIjoiMmZmNjdhZGMtNDgzYy00NDkzLWIxZGYtM2U5ZjMzYTA2ZDIyIiwib3JnYW5pemF0aW9uX25hbWUiOiJhYnRlY2giLCJyb2xlIjoiYWRtaW4ifQ.iYxf-uCogXD4QeCFfXolyqSzMKA93IZn2B5eMPIFt19998vIV4_DUwF3LJ4JRT9IVhGUqBzFkJSo3iu4nB9zqlbvJha3HxSOnVFzCjp0GNJn-5jBEpks768dupzeDNvWLOiUBHGa3yRoUbNJrh7422tIlavJU7VYwJdcTAVmINz_F37r_Q4k6c2NasrrDCaInIcX0cls_8UYGISB2N7WbCAhxm5igd0TksuJ9YtRkuVWl2-vez6Qfqx49GD7wpsF0PXB58Yf_mj4IYWHKCgJzHTeFuy9TUvqWvvui2CYB19NLxruW-9s1SXIzWwk-E_Ip_UDdFBWXpsIiQ-9_Di2LGbqopc56m1miPuCJu77Ns-XNT8TEWY5NdnZLNkpF6sV96v2ZXNeGuTZWP1ryvfMy7W8nFN9tPNA7OJCsy2BpThRcKiioonTZqyXs02_iuvYdshR6mBOGQEjBAHExKe4KeJl5dcDaFgE6iw_CtEUD-J067UQtHWNo9mpFZmTYJ3DrXDeUCJJd3zLaCxJS1gTK9WvgmkfA6-JvxX8hJe9ckrgzHMKTiUkTcazxRLZYH4-5xGqQirInxR_JMQj3a34qq0mEsFrbtcevfwE07p-LPLV3bZOw55UZFDHUF1fkXZ9i6CoPYAerDrVOfxTcaXRAFhyNHJ5WLHEkMjrZOxFzxs"
+access_token = "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc1MTI5MDk4NSwianRpIjoiODliNDYyYTAtMmY3ZC00MjU1LWFlZWMtMzBiZmM5ZWQ2NDNiIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjExNDJjMjAzLWE1YjgtNDE2MC05ZDBmLWU4NTg2NDg0Y2I2MiIsIm5iZiI6MTc1MTI5MDk4NSwiY3NyZiI6ImNmYzQxM2E2LWNkMTItNDkyMy1hNmIzLTYwYzJiNzI5NzFlZCIsImV4cCI6MTc1MTI5Mjc4NSwiaWQiOiIxMTQyYzIwMy1hNWI4LTQxNjAtOWQwZi1lODU4NjQ4NGNiNjIiLCJmaXJzdF9uYW1lIjoiQW5raXQiLCJsYXN0X25hbWUiOiJQYW5kZXkiLCJlbWFpbCI6InF3ZXJ0eUBtYWlsLmNvbSIsIm9yZ2FuaXphdGlvbl9pZCI6IjMyZTU0ZDU5LTMxN2QtNDk4OC04MWU1LTFkODZlNjlmNzJmOSIsIm9yZ2FuaXphdGlvbl9uYW1lIjoiYXNwc29sbiIsInJvbGUiOiJhZG1pbiJ9.NhaqKhXKnVT2IFZ6Z8OCRHiavsp-pLSV_BoyRa9cbnOn2Glq8dpVWDhEQGs1FqcHH3LcyGdrht4t2dY2dgZwUJHc79XK_faMVVb8pZpcXLwvNqmLHaSNNjfbGbPtc-enBPf1vcFpmbYDpPczsADzsdwsS3f-xUdp4ys_gGFPaLyR2g2nu0SLaNJnYMVU0WQmo5LCI2RI4n8CBcDwvOtk8kXkegceXakRLxtecUsuRY0F8Sq73T9OInbIK_K2l3cFZSe05p_6ifjOe7_TFnrB5hfvuvKA92njpWaMEeC-LKq6sEqkAXjNxDAzgv0zAHB2Z6XT1ulYg2Eyf2sCnijsvoFE9lTPvAlROIQYgYW4WsajbRrV4bLRc9oyevin7J85PfdvZvQI7hQFN4ayt1N9pHrVkwLnMLFRm5iMlg1VS_TZcTKe-ycxNHBJzvrHz0na94Ra-jAERrhCVqqJ5JSLs2VTGb_enBAOhKzYZukt3nz2IX2t6DHwaPpBg_25-P-prL30DBxtzzwvFH4PXGhkASDXE_Rr3lhMaUaWxxopBtGlhAUGuo1WFS8q585ZdgxtVcD8evPFLOdfoEBC2CX3boJgg_kL05iFBnnGjlK1rGI45uRHaLR_KdaOnJaAQJ-VTAgr0bn6UbMoK817-E6rgQvQr1OLmebIJyLR1bvrkV4"
 
 headers = {
             "Authorization": f"Bearer {access_token}",
@@ -44,24 +44,32 @@ headers = {
 
 # This is input and output structure fro all nodes
 class AgentState(TypedDict):
+    intent:str = None
     output: str =None  # The output from that node
     message: list  # The user original msg
     user_id : str   # unique id for identifying user
+    next_node:str
+    payload:dict
 
 curr_state :AgentState={
+    'intent':None,
     'output': str , # The output from that node,
     'message': list,  # The user original msg,
-    'user_id' : str  
+    'user_id' : str  ,
+    'next_node':None,
+    'payload':{}
     
 }
 
+manual_reg = 0
 
 inp = str()  # User query/msg 
 
-def open_link(state: AgentState):
-    """Opens a given URL in the default web browser."""
-    os.system(f"xdg-open {'http://172.16.10.8:5173/company/register'}")
-    return state
+# def open_link(state: AgentState):
+#     """Opens a given URL in the default web browser."""
+#     os.system(f"xdg-open {'http://172.16.10.8:5173/company/register'}")
+#     print("please open the link in the browser",http://172.16.10.8:5173/company/register"")
+#     return state
 
 
 import sounddevice as sd
@@ -79,28 +87,34 @@ def get_shared_chroma():
     return Chroma(
         collection_name="multi_user_chatbot_memory",
         embedding_function=embedding,
-        persist_directory="./chroma_db_chronoai_memory"
+        persist_directory="./chroma_db_chronoai_memory",
     )
 
 
+
 # This function used to store the chats into database(Chromadb)
-def persist_the_memory(input:AgentState):
+def persist_the_memory(state:AgentState):
     vectorstore = get_shared_chroma()
-    vectorstore.add_texts([input['message']], metadatas=[{"user_id": input['user_id']}])
+    vectorstore.add_texts([state['message']], metadatas=[{"user_id": state['user_id']}])
     return 
 
-def load_the_memory(input: AgentState):
+def load_the_memory(state: AgentState):
+    print("loading the memory")
     try:
-        
+        con = ""
+        for j in state['message']:
+            con = con +" "+ j.content
         vectorstore = get_shared_chroma()
+        print(con,"jjjjjjjjjjjjjjjjjjjjjj")
+        
         prev_memory = vectorstore.similarity_search(
-            input['message'],  # user input give for retriving similar data from db
-            k=50,     # load last 100 messages
-            filter={"user_id": input['user_id']}
+            con,  # user input give for retriving similar data from db
+            k=10,     # load last 100 messages
+            filter={"user_id": state['user_id']}
             )        
         return prev_memory
     except Exception as e:
-        return "error in prev memory"
+        return f"error in prev memory {e}"
 
 user_histories = {}  # temporary store the chat.
 
@@ -119,7 +133,7 @@ def get_user_memory(user_id):
             vectorstore = get_shared_chroma()
             results = vectorstore.similarity_search(
                 inp,  # user input give for retriving similar data from db
-                k=50,     # load last 100 messages
+                k=10,     # load last 100 messages
                 filter={"user_id": user_id}
             )
 
@@ -232,7 +246,18 @@ def play_audio(msg):
     
     # ***************************************Decide the Intent of user message *******************************************
 def decide_the_intent_of_query(input:AgentState) :
-    print(" [TOOL] decide_the_intent_of_query called with input:", input["message"])
+    print(" [TOOL] decide_the_intent_of_query called with input:", input["message"],"and intent is",input['intent'])
+    print()
+    if input['intent']!=None:
+        return {
+        **input,
+        'intent':input['intent'],
+        "message":input['message'],
+        "output":input['output'],
+        "user_id" :input['user_id']
+    }
+        
+        
     
     prompt = PromptTemplate(
     template="""
@@ -323,8 +348,9 @@ def decide_the_intent_of_query(input:AgentState) :
     print("Intent decided:", result['response'])
     
     return {
+        'intent':result['response'],
         "message":input['message'],
-        "output":result['response'],
+        "output":input['output'],
         "user_id" :input['user_id']
     }
 # **************************************Intent decided ****************************************************
@@ -339,7 +365,8 @@ def normal_conversation(state: AgentState):
 
     user_id = state['user_id']
     
-    conv = load_the_memory(input=state)
+    conv = load_the_memory(state=state)
+    print(conv,"the conv is ssssssssssssssssss")
     conversation = ""
     for doc in conv:
         conversation+=doc.page_content
@@ -400,97 +427,117 @@ def normal_conversation(state: AgentState):
 
     # Add message to vector store manually with user_id metadata
     vectorstore = get_shared_chroma()
-    vectorstore.add_texts([state['message']], metadatas=[{"user_id": user_id}])
+    vectorstore.add_texts(str(state['message']), metadatas=[{"user_id": user_id}])
     print(res)
 
     return {
+        **state,
+        'intent':None,
         "output": res,
-        "message" : state['message'],
+        "message" : state['message'] + [res],
         "user_id":user_id
     }
     
 # ************************************************************** Normal conversation Module ended ******************************************************
 
-
-
-
-
-
-
-
 # *************************************************************** Registration Module starts ************************************************************
+def ask_for_manual_reg(state:AgentState):
+    if not state['next_node']:
+        return{
+            **state,
+            'output':'do you want manual registration? Yes/No ?',
+            'next_node':'manual_registration'
+        }
+    else:
+        return {
+            **state,
+            'output':'bot_registration'
+            
+            
+        }
+
+def manual_registration(state: AgentState):
+    print("entring in manual regisstration...",state['message'][-1])
+    answer = state['message'][-1].content.lower()
+    is_manual = answer in ['yes', 'y', 'ok']
+    return {
+        'intent': None,
+        'message': state['message'],
+        'user_id': state['user_id'],
+        'output': 'please open the link in browser' if is_manual else 'bot_registration',
+        'next_node': 'manual_link' if is_manual else 'bot_registration'
+    }
+
+
+
 def extract_information_for_register(state: AgentState):
     print("Input to extract_information_for_register:", state["message"])
-    requests.post("http://172.16.10.25:8080/query",json={"message" : 'do you want to do manual registration yes/no'})
-    flag = requests.get("http://172.16.10.25:8080/query")
-    flag = flag.json()
-    flag = flag['message']
-    print(flag,";;;;;;;;;;;;;;;;;;;;;;;;;;;;;")
-    if flag.lower() in ['yes','y',"yup",'true']:
-        return {
-                "message":state["message"],
-                "output":"open_reg_link",
-                "user_id" :state['user_id']
-                }    
-    else:   
-        model2 = ChatOllama(model='llama3.3:latest',base_url=base_url)
-        parser2 = JsonOutputParser()
-        conv = load_the_memory(input=state)
-        conversation = ""
-        for doc in conv:
-            conversation+=doc.page_content
-        
-        prompt = PromptTemplate(
-            template="""
-            Extract the following fields [organization_name, email, password, first_name, last_name] from input: {state} and the previous conversation {conversation}
-            Return the extracted informaton just like : {{"organization_name":"name_of_org","email":"email","password":"12343","first_name":"james","last_name":"kumar"}}
-            If you are not able to fetch any field then set the value of that field as "NO" only
-            You have to return the output in "Json" format only
-            """,
-            input_variables=["state","conversation"],
-        )
 
-        chain = prompt | model2 | parser2
-        try:
-            payload = chain.invoke({"state": state["message"],"conversation":conversation})        
-            
-            while 'NO' in dict(payload).values():
-                payload = get_all_reg_parameters(dict(payload))
-                if payload == "error in getting reg parameters":
-                    return {
+    model2 = ChatOllama(model='llama3.3:latest',base_url=base_url)
+    parser2 = JsonOutputParser()
+    conv = load_the_memory(state=state)
+    conversation = ""
+    for doc in conv:
+        conversation+=doc.page_content
+    
+    prompt = PromptTemplate(
+        template="""
+        Extract the following fields [organization_name, email, password, first_name, last_name] from current conversation between AI and user : {state} and the previous conversation {conversation}
+        Return the extracted informaton just like : {{"organization_name":"name_of_org","email":"email","password":"12343","first_name":"james","last_name":"kumar"}}
+        If you are not able to fetch any field then set the value of that field as "NO" only
+        You have to return the output in "Json" format only
+        """,
+        input_variables=["state","conversation"],
+    )
+
+    chain = prompt | model2 | parser2
+    try:
+        payload = chain.invoke({"state": state['message'],"conversation":conversation})        
+        
+        while 'NO' in dict(payload).values():
+            val = get_all_reg_parameters(dict(payload),state)
+            if val == "error in getting reg parameters":
+                return {
+                    **state,
                 "message":state["message"],
                 "output":"payload can not be extracted",
                 "user_id" :state['user_id']
-                }
-            
-            
-            
-            vectorstore = get_shared_chroma()
-            vectorstore.add_texts([state['message']], metadatas=[{"user_id": state['user_id']}])
-            vectorstore.add_texts([str(payload)],metadatas=[{"user_id": state['user_id']}])
-            
-            return {
-                "message":state["message"],
-                "output":payload,
-                "user_id" :state['user_id']
             }
-        except Exception as e:
             return {
-                "message":state['message'],
-                "output":"payload can not be extracted",
-                "user_id" :state['user_id']
+                **state,
+                'output':val
             }
+
+        vectorstore = get_shared_chroma()
+        vectorstore.add_texts([str(state['message'])], metadatas=[{"user_id": state['user_id']}])
+        vectorstore.add_texts([str(payload)],metadatas=[{"user_id": state['user_id']}])
+        print("payload is ",payload)
+        
+        return {
+            **state,
+            "message":state["message"],
+            "payload":payload,
+            "user_id" :state['user_id']
+        }
+    except Exception as e:
+        return {
+            **state,
+            "message":state['message'],
+            "output":f"payload can not be extracted because {e}",
+            "user_id" :state['user_id']
+        }
             
     
-def get_all_reg_parameters(payload) :
+def get_all_reg_parameters(payload,state) :
+    print('TOOL getting all registration parameters........')
     try:
         print("getting all_reg_parameters")
         for key in payload.keys():
             if payload[key]=='NO':
-                val = input(ask_user("to register please provide",f"please provide {key} value "))
-                payload[key] = val
+                val = ask_user("to register please provide",f"please provide {key} value ")
+                return val
+        return 'None'
         
-        return payload
         
     except Exception as e:
         return "error in getting reg parameters"
@@ -513,21 +560,22 @@ def generate_review(state: AgentState):
 def register_the_client(state: AgentState) -> str:
     print("TOOL register_the_client CALLED WITH INPUT:", state)
     try:
-        payload= state["output"]
-        if not all(k in payload for k in ["organization_name", "email", "password", "first_name", "last_name"]):
-            return "Missing required fields. Please provide all necessary information."
-
+        payload= state["payload"]
+        
         url = "http://172.16.10.13:5000/register"
 
-        response = requests.post(url, payload)        
+        response = requests.post(url, json=payload)        
         
         vectorstore = get_shared_chroma()
         vectorstore.add_texts([f"Human_message is {state['message']}"], metadatas=[{"user_id": state['user_id']}])
+        print(response.json(),"wsdfnweuifbcwequvbchue")
     
         return {
+            **state,
             "output": response.json()['message'],
             "message" : state["message"],
             "user_id":state["user_id"],
+            "payload":{}
         }
     except Exception as e:
         return {
@@ -545,7 +593,7 @@ def extract_the_login_parameters(state:AgentState):
     model_login = ChatOllama(model='llama3.3:latest',base_url=base_url)
     parser_login  =JsonOutputParser()
     
-    conv = load_the_memory(input=state)
+    conv = load_the_memory(state=state)
     memory = ""
     for doc in conv:
         memory+=doc.page_content
@@ -558,7 +606,7 @@ def extract_the_login_parameters(state:AgentState):
             If either or both of the values are not present in the {query}, then check the {conversation} for the missing information.
 
             Instructions:
-            - Only extract values for `email` and `password`.
+            - Only extract values for `email` and `password` latest from conversation.
             - If either value is not available in both {query} and {conversation}, respond that the variable is not given.
             - Your final output must be in strict JSON format.
 
@@ -580,10 +628,13 @@ def extract_the_login_parameters(state:AgentState):
     
     chain = prompt_login | model_login | parser_login
     
-    doc = Document(metadata={'user_id':state['user_id']},page_content=state["message"])
+        
+    print(state['message'][-1].content,"wqdddddddd")
+    doc = Document(metadata={'user_id':state['user_id']},page_content=state["message"][-1].content)
     res = chain.invoke({'query':doc,"conversation":memory})
     return {
-            "output": res,
+        **state,
+            "payload": res,
             "message" : state["message"],
             "user_id":state["user_id"],
         }
@@ -593,22 +644,28 @@ def login_user(state: AgentState):
     print("TOOL login_user  WITH INPUT:", state)
     try:
         # This assumes `input` is already a dict
-        payload= state["output"]
+        payload= state["payload"]
         if not all(k in payload for k in [ "email", "password"]):
-            return "Missing required fields. Please provide all necessary information."
-
+            return {
+                **state,
+                'output':"Missing required fields. Please provide all necessary information."
+                }
         url = "http://172.16.10.13:5000/login"
         
 
         response = requests.post(url, json=payload)
+        print(response.json())
         
         return {
-            "output": f"{response.json()}",
+            **state,
+            "output": f"{response.json()['access_token']}",
             "message" : state["message"],
             "user_id":state["user_id"],
+            'payload' :{}
         }
     except Exception as e:
         return {
+            **state,
             "output": f"login failed with exception {e}",
             "message" : state["message"],
             "user_id":state["user_id"],
@@ -644,58 +701,66 @@ def create_client(state: AgentState):
         
         for key in dict(payload).keys():
             if payload[key]=="NO":
-                val = requests.post("http://172.16.10.25:8080/query",json={"bot :- " : ask_user(state["message"],f'{key}')})
-                if val and val not in ['NO','no','No']:
-                    payload[key] = val
+                val = ask_user(state['message'],key)
+                return {
+                    **state,
+                    'output':val
+                }
                             
         response = requests.post(url,json=payload,headers=headers)
         response =response.json()
         print("response is ",response)
-        if response['message'] == "Record added successfully":
-            msg = input(f"Do you want to create project for this client")
-            if msg.lower() in  ['yes','y','yup','yaa','ok']:
-                name = input(ask_user('want to create project for the client registered','project_name'))
-                description = input("please provide description we recommend it ")
-                if not description:
-                    description = None
+        # if response['message'] == "Record added successfully":
+        #     state['output']=response['message']
+            
+        #     if msg.lower() in  ['yes','y','yup','yaa','ok']:
+        #         name = input(ask_user('want to create project for the client registered','project_name'))
+        #         description = input("please provide description we recommend it ")
+        #         if not description:
+        #             description = None
                     
-                payload= {
-                    'name':name,
-                    'description':description,
-                    'client_id':response['data']['id']
-                }
+        #         payload= {
+        #             'name':name,
+        #             'description':description,
+        #             'client_id':response['data']['id']
+        #         }
                 
-                project_response = requests.post("http://172.16.10.13:5000/add-project",json=payload,headers=headers)
-                project_response = project_response.json()
+        #         project_response = requests.post("http://172.16.10.13:5000/add-project",json=payload,headers=headers)
+        #         project_response = project_response.json()
                 
-                msg = input("Do you want to add task for this project? : ")
+        #         msg = input("Do you want to add task for this project? : ")
                 
-                if msg.lower() in  ['yes','y','yup','yaa','ok']:
-                    task_name = input(ask_user('to add task for the project',"provide the task name"))
-                    project_id = project_response['data']['id']
-                    url  ="http://172.16.10.13:5000/add-tasks"
-                    response = requests.post(url,json={'name':task_name,'project_id':project_id},headers=headers)
-                    response =response.json()
+        #         if msg.lower() in  ['yes','y','yup','yaa','ok']:
+        #             task_name = input(ask_user('to add task for the project',"provide the task name"))
+        #             project_id = project_response['data']['id']
+        #             url  ="http://172.16.10.13:5000/add-tasks"
+        #             response = requests.post(url,json={'name':task_name,'project_id':project_id},headers=headers)
+        #             response =response.json()
                     
-                    return{
-                        'message':state['message'],
-                        'output':response['message'],
-                        'user_id':state['user_id']
-                    }
+        #             return{
+        #                 'message':state['message'],
+        #                 'output':response['message'],
+        #                 'user_id':state['user_id']
+        #             }
                     
-                return{
-                        'message':state['message'],
-                        'output':project_response,
-                        'user_id':state['user_id']
-                    }
+        #         return{
+        #                 'message':state['message'],
+        #                 'output':project_response,
+        #                 'user_id':state['user_id']
+        #             }
         return{
+            **state,
+            'intent':None,
             'message':state['message'],
             'output':response['message'],
-            'user_id':state['user_id']
+            'user_id':state['user_id'],
+            'payload':{}
         }
     
     except Exception as e:
         return{
+            **state,
+            'intent':None,
             'message':state['message'],
             'output':f"exception {e}",
             'user_id':state['user_id']
@@ -1091,29 +1156,29 @@ def performance(state):
 def router(state: AgentState) -> str:
     """Router logic based on intent"""
     print("Router received:", state)
-    if state['output'] == "register_org":
+    if state['intent'] == "register_org":
         return "extract_information_for_register"
-    elif state["output"] == "RAG QUERY":
+    elif state["intent"] == "RAG QUERY":
         return "rag_the_query"
-    elif state["output"]=="normal_conversation":
+    elif state["intent"]=="normal_conversation":
         return "normal_conversation"
-    elif state["output"]=="login":
+    elif state["intent"]=="login":
         return "login"
     elif state["output"]=="exit":
         return "exit"
-    elif state["output"]=="fall_back":
+    elif state["intent"]=="fall_back":
         return "fall_back"
-    elif state['output'] == "timesheet_creation":
+    elif state['intent'] == "timesheet_creation":
         return 'timesheet_creation'
-    elif state['output'] == "create_client":
+    elif state['intent'] == "create_client":
         return 'create_client'
-    elif state['output'] == 'create_project':
+    elif state['intent'] == 'create_project':
         return 'create_project'
-    elif state['output'] == 'create_task':
+    elif state['intent'] == 'create_task':
         return 'create_task'
-    elif state['output'] == 'fill_timesheet':
+    elif state['intent'] == 'fill_timesheet':
         return 'fill_timesheet'
-    elif state['output'] == 'performance':
+    elif state['intent'] == 'performance':
         return 'performance'
     else:
         return None
@@ -1125,8 +1190,10 @@ def router_for_review(state: str):
     elif state['output'] =="open_reg_link":
         return "open_reg_link"
     
+    elif state['payload']:
+        return 'review'
     else:
-        return 'Y'
+        return 'N'
 # ******************************************************************************* Routing module ended **************************************************
 
 
@@ -1136,10 +1203,12 @@ def rag_the_query(state: AgentState):
     
     rag = RAG()
     print("rag recivied",state)
-    ans = rag.invoke(state["message"])
+    ans = rag.invoke(state["message"][-1].content)
     print("RAG result:", ans['output'])
 
     return {
+        **state,
+        'intent':None,
         "output": ans['output'],
         "message" : state["message"],
         "user_id":state["user_id"],
@@ -1163,7 +1232,7 @@ def fall_back(input: AgentState):
         "message":input['message'],
         "user_id": input['user_id']
     }
-    
+
 # ========================================= GRAPH WORKFLOW  STARTED ==============================================
 
 workflow = StateGraph(AgentState)
@@ -1171,8 +1240,10 @@ workflow = StateGraph(AgentState)
 
 # workflow.add_node("record_audio_untill_stop", record_audio_untill_stop)
 workflow.add_node("decide_the_intent_of_query", decide_the_intent_of_query)
+workflow.add_node("ask_for_manual_reg", ask_for_manual_reg)
 workflow.add_node("extract_information_for_register", extract_information_for_register)
 workflow.add_node("register_the_client", register_the_client)
+workflow.add_node("manual_registration", manual_registration)
 workflow.add_node("rag_the_query", rag_the_query)
 workflow.add_node("normal_conversation",normal_conversation)
 workflow.add_node("extract_the_login_parameters",extract_the_login_parameters)
@@ -1180,7 +1251,6 @@ workflow.add_node("login_user",login_user)
 workflow.add_node("fall_back",fall_back)
 workflow.add_node("generate_review",generate_review)
 workflow.add_node("create_time_sheet",create_time_sheet)
-workflow.add_node("open_reg_link",open_link)
 workflow.add_node("create_client",create_client)
 workflow.add_node("create_project",create_project)
 workflow.add_node("create_task",create_task)
@@ -1196,7 +1266,7 @@ workflow.add_conditional_edges(
     "decide_the_intent_of_query",
     router,
     {
-        "extract_information_for_register": "extract_information_for_register",
+        "extract_information_for_register": "ask_for_manual_reg",
         "rag_the_query": "rag_the_query",      
         "normal_conversation":"normal_conversation",
         "login":"extract_the_login_parameters",
@@ -1212,22 +1282,40 @@ workflow.add_conditional_edges(
 )
 
 workflow.add_conditional_edges(
+    "ask_for_manual_reg",
+    lambda state: state["output"],
+    {
+        "bot_registration": "manual_registration",
+        "do you want manual registration? Yes/No ?":"__end__"
+         }
+)
+
+
+workflow.add_conditional_edges(
+    "manual_registration",
+    lambda state: state["output"],
+    {
+        "bot_registration": "extract_information_for_register",
+        "please open the link in browser":"__end__"
+         }
+)
+
+workflow.add_conditional_edges(
     "extract_information_for_register",
     router_for_review,
     {
-        "Y": "generate_review",
+        "Y": "__end__",
         "N" :"__end__",
-        "open_reg_link":"open_reg_link"
+        "review":"register_the_client"
       
     }
 )
 
 # Final step: register after extraction
-workflow.add_edge("generate_review","register_the_client")
 workflow.add_edge("fill_timesheet","__end__")
 workflow.add_edge("normal_conversation","__end__")
 workflow.add_edge("extract_the_login_parameters","login_user")
-
+workflow.add_edge("register_the_client","__end__")
 
 # Compile the graph
 graph_builder= workflow.compile()
@@ -1241,13 +1329,11 @@ with open("graph.png", "wb") as f:
 #     print("Bot :- hello! I am chronoai an AI assistent for your Timechorono plateform!! How can i help you? ") 
 #     s =0
 
-if __name__ == "__main__":
-    while True:
-        user_input = HumanMessage(input("user :- "))
-        curr_state
-        result = graph_builder.invoke({"message":user_input,"user_id": "1231",})
-        print()
-        
-        print("Bot :-  ",result["output"])
-        if result["output"] =="exit":
-            break
+# if __name__ == "__main__":
+#     while True:
+#         user_input = HumanMessage(input("user :- "))
+#         curr_state
+#         result = graph_builder.invoke({"message":user_input,"user_id": "1231",})
+#         print("Bot :-  ",result["output"])
+#         if result["output"] =="exit":
+#             break

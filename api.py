@@ -43,8 +43,37 @@ app = Flask(__name__)
 #         return curr_msg
 #     except Exception as e:
 #         raise e
+from langchain.vectorstores import Chroma
+from langchain_huggingface.embeddings import HuggingFaceEmbeddings
+from langchain_core.documents import Document
+
+embedding = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")  # to vectorize the data
 
 socketio = SocketIO(app, cors_allowed_origins="*")
+
+def get_shared_chroma():
+    return Chroma(
+        collection_name="multi_user_chatbot_memory",
+        embedding_function=embedding,
+        persist_directory="./chroma_db_chronoai_memory",
+    )
+
+def persist_the_memory(state:message_state):
+    vectorstore = get_shared_chroma()
+    print("storing info",state['message'])
+    
+    docs = []
+    
+    for msg in state['message']:
+        role = "human" if isinstance(msg, HumanMessage) else "ai"
+        docs.append(Document(
+            page_content=msg.content,
+            metadata={"role": role}  
+        ))
+    print(docs,"uuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu")
+        
+    vectorstore.add_documents(docs)
+    return state
 
 # You'd replace this with your actual LangGraph logic
 def get_bot_response(state):
@@ -64,18 +93,19 @@ def handle_user_message(data):
     if curr_state['user_id'] == None:
         curr_state['user_id']=data['user_id']
         
-    print("the user is",curr_state['message'])
     response = get_bot_response(curr_state)
+    print('bot res __________',response)
     curr_state['message'].append(AIMessage(response['output']))
     curr_state['next_node'] = response['next_node']
     curr_state['intent'] = response['intent']
-    print(curr_state['message'])
+    curr_state['payload'] = response['payload']
     
-    print(response,"thiadbqwdbqu")
     emit("bot_response", {"message":response['output']})
 
 @socketio.on('disconnect')
 def handle_disconnect():
+    print(curr_state['message'])
+    persist_the_memory(curr_state)
     print("Client disconnected")
 
 if __name__ == "__main__":
